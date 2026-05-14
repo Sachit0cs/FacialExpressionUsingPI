@@ -1,0 +1,11 @@
+opencv-python
+numpy
+# fer installed without deps to avoid moviepy/numpy conflict:
+#   pip install fer --no-deps
+# Then install fer's runtime deps (tensorflow already covers most):
+tensorflow
+requests
+tqdm
+matplotlib
+pandas
+# Note: do NOT install moviepy or facenet-pytorch — they conflict with numpy>=2.0
